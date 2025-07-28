@@ -1,0 +1,91 @@
+# 🐍 Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+*.egg-info/
+dist/
+build/
+*.egg
+*.manifest
+*.spec
+
+# 📁 Environment & Virtualenv
+.env
+.venv/
+venv/
+env/
+pip-selfcheck.json
+.envrc
+
+# 🔧 Editor & IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# 📊 Testing & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+test-reports/
+
+# 📦 Packaging & Dependencies
+site/
+*.whl
+requirements.txt
+
+# 🖼️ Assets & Outputs
+*.log
+*.tmp
+*.bak
+*.dat
+*.db
+*.dump
+*.pid
+*.seed
+*.pid.lock
+*.sublime-project
+*.sublime-workspace
+
+# 🗄️ System & MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 🐋 Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# 📝 Documentation
+_build/
+docs/_build/
+*.docx
+*.pdf
+*.xlsx
+
+# 🎨 Custom Assets (update with your paths)
+/media/
+!/media/readme_banner.png
+/export/
+/screenshots/
+
+# 🚫 Always exclude
+*.secret
+*.key
+*.cert
+*.pem
+*_backup
